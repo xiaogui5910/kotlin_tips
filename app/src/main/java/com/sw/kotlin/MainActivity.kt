@@ -2,6 +2,9 @@ package com.sw.kotlin
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.sw.kotlin.tip1.testString
+import com.sw.kotlin.tip1.testString2
+import com.sw.kotlin.tip1.testString3
 import com.sw.kotlin.tip4.invokeActivity
 import com.sw.kotlin.tip6.Tip6Activity
 import com.sw.kotlin.tips.R
@@ -15,5 +18,9 @@ class MainActivity : AppCompatActivity() {
         toTip6.setOnClickListener {
             invokeActivity(Tip6Activity::class.java)
         }
+
+        testString()
+        testString2()
+        testString3()
     }
 }
